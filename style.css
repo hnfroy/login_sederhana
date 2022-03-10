@@ -1,0 +1,55 @@
+body {
+    background: #5e848d;
+    font-family: sans-serif;
+  }
+  
+  h2 {
+    color: #fff;
+  }
+
+  .form:hover {
+    -webkit-transition: 0.4s ease;
+    -webkit-transform: scale(1.10);
+    transform: scale(1.10);
+  }
+  
+  .login {
+    padding: 1em;
+    margin: 2em auto;
+    width: 17em;
+    background: #fff;
+    border-radius: 3px;
+  }
+  
+  label {
+    font-size: 10pt;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  textarea {
+    padding: 8px;
+    width: 95%;
+    background: #efefef;
+    border: 0;
+    font-size: 10pt;
+    margin: 6px 0px;
+  }
+  
+  .tombol {
+    background: #3498db;
+    color: #fff;
+    border: 0;
+    padding: 5px 8px;
+    margin: 20px 0px;
+    border-radius: 5%;
+  }
+
+  .shadow {
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.301);
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
